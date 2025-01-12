@@ -5,7 +5,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchprojectData = createAsyncThunk('projectData/fetchData',
     async (_, thunkApi) => {
         try {
-            const response = await fetch('/Data/projects.json')
+            const response = await fetch('./Data/projects.json')
             if (!response.ok) {
                 throw new Error('Failed to fetch data')
             }

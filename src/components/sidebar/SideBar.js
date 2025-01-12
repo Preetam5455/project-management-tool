@@ -11,7 +11,7 @@ const SideBar = ({menuItems }) => {
         <img src="./assets/search.svg" alt="Icon 5" className="header-icons" />
         <img src="./assets/code.svg" alt="Icon 5" className="header-icons" />
         <img src="./assets/editFile.svg" alt="Icon 5" className="header-icons" />
-        <img src="./assets/teamWork.svg" alt="Icon 5" className="header-icons" />
+        <img src="./assets/teamwork.svg" alt="Icon 5" className="header-icons" />
         <img src="./assets/diceMenu.svg" alt="Icon 5" className="header-icons" />
         <img src="./assets/help.svg" alt="Icon 5" className="header-icons" />
         <img src="./assets/like.svg" alt="Icon 5" className="header-icons" />

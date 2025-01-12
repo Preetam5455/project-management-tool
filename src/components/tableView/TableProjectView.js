@@ -23,13 +23,13 @@ function TableProjectView() {
     <thead>
         <tr>
             <th>Id</th>
-            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="/assets/folder.svg" alt="Reviewer" /><span>Project Name</span></div></th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/folder.svg" alt="Reviewer" /><span>Project Name</span></div></th>
             <th>%</th>
-            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="/assets/owner.svg" alt="Reviewer" /><span>Owner</span></div></th>
-            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="/assets/task.svg" alt="Reviewer" /><span>Tasks</span></div></th>
-            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="/assets/status.svg" alt="Reviewer" /><span>Status</span></div></th>
-            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="/assets/calander.svg" alt="Reviewer" /><span>Start Date</span></div></th>
-            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="/assets/calander.svg" alt="Reviewer" /><span>End Date</span></div></th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/owner.svg" alt="Reviewer" /><span>Owner</span></div></th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/task.svg" alt="Reviewer" /><span>Tasks</span></div></th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/status.svg" alt="Reviewer" /><span>Status</span></div></th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/calander.svg" alt="Reviewer" /><span>Start Date</span></div></th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/calander.svg" alt="Reviewer" /><span>End Date</span></div></th>
         </tr>
     </thead>
     <tbody>

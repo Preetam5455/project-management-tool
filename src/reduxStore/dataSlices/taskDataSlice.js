@@ -5,7 +5,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 export const fetchTaskData = createAsyncThunk('taskData/fetchData',
     async (_, thunkApi) => {
         try {
-            const response = await fetch('/Data/tasks.json')
+            const response = await fetch('./Data/tasks.json')
             if (!response.ok) {
                 throw new Error('Failed to fetch data')
             }

@@ -20,8 +20,8 @@ const [cardView, setCardView] = useState(true);
       <div className='dashboard-project-overview-text'>Dashboard/<span className='link'>Project Overview</span></div>
     </div>
     <div className='view-type-button'>
-      <button className={`view-btns card-view ${cardView ? "active":""}`} onClick={()=>onViewSwitch(true)}><img className="reviewer-avatar-icon" src="/assets/cardView.svg" alt="Reviewer" /></button>
-      <button className={`view-btns table-view ${cardView ? "":"active"}`} onClick={()=>onViewSwitch(false)}><img className="reviewer-avatar-icon" src="/assets/listView.svg" alt="Reviewer" /></button>
+      <button className={`view-btns card-view ${cardView ? "active":""}`} onClick={()=>onViewSwitch(true)}><img className="reviewer-avatar-icon" src="./assets/cardView.svg" alt="Reviewer" /></button>
+      <button className={`view-btns table-view ${cardView ? "":"active"}`} onClick={()=>onViewSwitch(false)}><img className="reviewer-avatar-icon" src="./assets/listView.svg" alt="Reviewer" /></button>
       <div className='fade-text'> click here to change view</div>
     </div>
     {cardView ? (<><KanbanProjectView/>
