@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './BodyLayout.css'
-import KanbanProjectView from '../kanbanView/KanbanProjectView'
-import TableView from '../tableView/TableView'
-import TableTaskView from '../tableView/TableTaskView';
-import KanbanTaskView from '../kanbanView/kanbanTaskView'
+import KanbanProjectView from '../KanbanView/KanbanProjectView'
+import TableProjectView from '../TableView/TableProjectView'
+import TableTaskView from '../TableView/TableTaskView';
+import KanbanTaskView from '../KanbanView/kanbanTaskView'
 
 function BodyLayout() {
 const [cardView, setCardView] = useState(true);
@@ -25,7 +25,7 @@ const [cardView, setCardView] = useState(true);
       <div className='fade-text'> click here to change view</div>
     </div>
     {cardView ? (<><KanbanProjectView/>
-      <KanbanTaskView/></>) : (<><TableView/>
+      <KanbanTaskView/></>) : (<><TableProjectView/>
         <TableTaskView/></>) }
 
     

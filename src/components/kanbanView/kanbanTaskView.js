@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import './KanbanProjectView.css'
 import { fetchTaskData } from '../../reduxStore/dataSlices/taskDataSlice';
 
-function kanbanTaskView() {
+function KanbanTaskView() {
     const dispatch = useDispatch();
     const { data, status, error, } = useSelector((state) => state.taskData)
 
@@ -64,4 +64,4 @@ function kanbanTaskView() {
     );
 }
 
-export default kanbanTaskView;
+export default KanbanTaskView;

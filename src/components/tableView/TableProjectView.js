@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { fetchprojectData } from '../../reduxStore/dataSlices/projectDataSlice';
 import './TableView.css'
 
-function TableTaskView() {
+function TableProjectView() {
     const dispatch = useDispatch();
     const { data, status, error, } = useSelector((state) => state.projectData)
 
@@ -69,4 +69,4 @@ function TableTaskView() {
     )
 }
 
-export default TableTaskView
+export default TableProjectView

@@ -1,7 +1,7 @@
 import './App.css';
-import LayoutHeader from './components/header/LayoutHeader';
-import SideBar from './components/sidebar/SideBar';
-import BodyLayout from './components/layoutView/BodyLayout';
+import LayoutHeader from './components/Header/LayoutHeader';
+import SideBar from './components/Sidebar/SideBar';
+import BodyLayout from './components/LayoutView/BodyLayout';
 
 function App() {
   return (
