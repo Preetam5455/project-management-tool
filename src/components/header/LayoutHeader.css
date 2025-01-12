@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px; 
+  padding: 0 16px;
+  background-color:var(--color-prime-blue);
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.project-name-header {
+  font-size: 24px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-left: 55px;
+}
+
+.icons {
+  display: flex;
+  gap: 8px;
+}
+
+.header-icons {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.icons .header-icons:last-child{
+  margin-left: 0px;
+}
+.header-avatar{
+  border: 1px solid #ffffff;
+  border-radius: 4px 4px 10px 4px;
+}

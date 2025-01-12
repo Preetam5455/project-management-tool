@@ -1,0 +1,306 @@
+.Kanban-main-container {
+    margin: var(--spacing-container-margin);
+    padding: var(--spacing-container-padding);
+    border-radius: var(--card-border-radius);
+    border: 1px solid var(--color-border-grey);
+    box-shadow: var(--card-shadow);
+    background-color: var(--color-bg-card);
+  }
+  
+  .Kanban-project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-gap);
+    overflow: auto;
+  }
+  
+  .Kanban-project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: var(--card-border-radius);
+    padding: var(--spacing-card-padding);
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border-grey);
+    box-shadow: var(--card-shadow);
+  }
+  .Kanban-project-card:hover{
+    background-color: var(--color-hover-bg);
+  }
+  
+  .card-top, .card-middle {
+    margin-bottom: 40px;
+  }
+  
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-info {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-small-gap);
+  }
+  
+  .project-icon {
+    font-size: 16px;
+    color: var(--color-icon-black);
+  }
+  
+  .project-name {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .project-id {
+    font-size: 14px;
+    color: var(--color-text-black-main);
+    font-weight: 600;
+  }
+  
+  .card-middle {
+    position: relative;
+    text-align: center;
+  }
+  
+  .task-progress {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-small-gap);
+  }
+  
+  .completed-tasks, .total-tasks {
+    font-size: 14px;
+    color: var(--color-text-black-main);
+  }
+  
+  progress {
+    width: 100%;
+    height: var(--progress-bar-height);
+    appearance: none;
+    border: none;
+    border-radius: calc(var(--progress-bar-height) / 2);
+    background-color: var(--color-progress-bg);
+  }
+  
+  progress::-webkit-progress-bar {
+    border-radius: calc(var(--progress-bar-height) / 2);
+    background-color: var(--color-progress-bg);
+  }
+  
+  progress::-webkit-progress-value {
+    border-radius: calc(var(--progress-bar-height) / 2);
+    background-color: var(--color-progress-bar);
+  }
+  
+  .date-range {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 5px;
+    color: var(--color-text-black-main);
+  }
+  
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid rgb(225 225 225);
+    padding: 10px 0px 0px 0px;
+  }
+  
+  .reviewer-info-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .reviewer-avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    border-radius: 50%;
+    z-index: 50;
+  }
+  
+  .reviewer-count {
+    font-size: 12px;
+    color: var(--color-text-black-main);
+  }
+  
+  .attachments {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-small-gap);
+  }
+  
+  .attachment-icon {
+    font-size: 16px;
+    color: var(--color-icon-black);
+  }
+  
+  progress {
+    width: 100%;
+    height: var(--progress-bar-height);
+    appearance: none;
+    border: none;
+    border-radius: calc(var(--progress-bar-height) / 2);
+    background-color: var(--color-progress-bg);
+  }
+  
+  progress::-webkit-progress-bar {
+    border-radius: calc(var(--progress-bar-height) / 2);
+    background-color: var(--color-progress-bg);
+  }
+  
+  progress::-webkit-progress-value {
+    border-radius: calc(var(--progress-bar-height) / 2);
+    background-color: var(--color-progress-bar);
+  }
+  
+  .progress-percentage-table {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-text-black-main);
+    pointer-events: none;
+  }
+
+  .progress-percentage-table-Status{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-text-black-main);
+    pointer-events: none;
+  }
+
+  .reviewer-info .reviewer-avatar:nth-child(2) {
+    margin: -12px;
+    z-index: 45;
+  }
+  
+  .reviewer-info .reviewer-avatar:nth-child(3) {
+    z-index: 40;
+  }
+
+
+.Kanban-project-table th, 
+.Kanban-project-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+img.reviewer-avatar {
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.progress-container {
+  position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.table-head-icon-heading-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Kanban-project-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.Kanban-project-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 12px 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.Kanban-project-table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.Kanban-project-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.Kanban-project-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.Kanban-project-table tr:last-child td {
+  border-bottom: none;
+}
+
+.project-status{
+  background-color: var(--color-progress-bg);
+  color: #ffffff;
+}
+.project-status.in-progress {
+  background-color: var(--color-status-in-porgress-bg);
+}
+.project-status.in-progress.completed {
+  background-color: var(--color-progress-bar);
+}
+.project-status.archived{
+  background-color: var(--color-status-in-archived-bg);
+}
+.project-status.in-review.delayed{
+  background-color: red;
+}
+.project-status.in-review{
+  background-color: rgba(59, 120, 163, 1)
+}
+.project-status.in-review.on-Track{
+  background-color: rgba(202, 192, 0, 1);
+}
+.project-status.in-review.on-Track.revision {
+  background-color: rgba(62, 75, 79, 1);
+}
+.pirority.high{
+  color: red;
+  background: #fac4c494;
+  padding: 4px;
+  border-radius: 12px;  
+}
+.pirority.medium{
+  color: rgba(202, 192, 0, 1);
+  background: rgb(247, 243, 179);
+  padding: 4px;
+  border-radius: 12px;  
+}
+.pirority.low{
+  color: var(--color-progress-bar);
+  background: rgb(189 241 189);
+  padding: 4px;
+  border-radius: 12px;  
+}
+.pirority.none{
+  color: var(--color-text-black-light);
+  background: rgb(136 133 133 / 70%);
+  padding: 4px;
+  border-radius: 12px;  
+}
+

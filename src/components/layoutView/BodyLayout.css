@@ -1,0 +1,70 @@
+.project-title-addproject-btn-container{
+    display: flex;
+    margin-left: 100px;
+    font-size: 26px;
+    gap: 10px;
+    padding-top: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.add-project-btn{
+    background-color: var(--color-prime-blue);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: #ffffff;
+    font-size: 24px;
+    box-shadow: 0px 1px 5px 0px rgba(45, 68, 110, 0.1);
+}
+.dashboard-project-overview-text{
+    text-align: center;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.link{
+    color: blue;
+}
+.view-type-button{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.view-btns {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px; 
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .view-btns:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .view-btns:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  .view-btns.active {
+    transform: scale(1.05);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-prime-blue);
+  }
+  
+  .reviewer-avatar-icon {
+    width: 24px; 
+    height: 24px;
+    object-fit: contain;
+  }
+  

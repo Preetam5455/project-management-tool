@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.005em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  /* Colors */
+  --color-prime-blue: rgba(45, 68, 110, 1);
+  --color-bg-card: rgba(254, 254, 254, 1);
+  --color-border-grey: rgba(191, 191, 191, 1);
+  --color-icon-black: rgba(64, 64, 64, 1);
+  --color-icon-grey: rgba(217, 217, 217, 1);
+  --color-progress-bar: rgba(102, 204, 102, 1);
+  --color-progress-bg: rgba(217, 217, 217, 1);
+  --color-text-black-main: rgba(23, 23, 23, 1);
+  --color-text-black-light: rgba(64, 64, 64, 1);
+  --color-text-black-muted: rgba(64, 64, 64, 0.7);
+  --color-hover-bg: rgb(186 202 208 / 30%);
+  --color-status-in-porgress-bg:rgb(62 130 253);
+  --color-status-in-archived-bg:rgba(96, 125, 139, 1);
+  
+  /* Spacing */
+  --spacing-container-margin: 80px;
+  --spacing-container-padding: 20px;
+  --spacing-card-padding: 10px;
+  --spacing-gap: 20px;
+  --spacing-small-gap: 6px;
+
+  /* Dimensions */
+  --progress-bar-height: 14px;
+  --avatar-size: 24px;
+  --card-border-radius: 8px;
+
+  /* Shadows */
+  --card-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
+}
