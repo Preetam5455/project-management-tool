@@ -1,5 +1,5 @@
 .Kanban-main-container {
-    margin: var(--spacing-container-margin);
+    margin: 25px 10px 20px 80px;
     padding: var(--spacing-container-padding);
     border-radius: var(--card-border-radius);
     border: 1px solid var(--color-border-grey);
@@ -76,16 +76,7 @@
     font-size: 14px;
     color: var(--color-text-black-main);
   }
-  
-  progress {
-    width: 100%;
-    height: var(--progress-bar-height);
-    appearance: none;
-    border: none;
-    border-radius: calc(var(--progress-bar-height) / 2);
-    background-color: var(--color-progress-bg);
-  }
-  
+    
   progress::-webkit-progress-bar {
     border-radius: calc(var(--progress-bar-height) / 2);
     background-color: var(--color-progress-bg);
@@ -124,6 +115,9 @@
     border-radius: 50%;
     z-index: 50;
   }
+  .accordion-title img.reviewer-avatar{
+    padding-top: 5px;
+  }
   
   .reviewer-count {
     font-size: 12px;
@@ -146,16 +140,7 @@
     position: relative;
     width: 100%;
   }
-  
-  progress {
-    width: 100%;
-    height: var(--progress-bar-height);
-    appearance: none;
-    border: none;
-    border-radius: calc(var(--progress-bar-height) / 2);
-    background-color: var(--color-progress-bg);
-  }
-  
+    
   progress::-webkit-progress-bar {
     border-radius: calc(var(--progress-bar-height) / 2);
     background-color: var(--color-progress-bg);

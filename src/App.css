@@ -29,9 +29,28 @@
 }
 
 .accordion-title{
+  margin-top: 10px;
+  color: var(--color-prime-blue);
   display: flex;
-  margin-left: 100px;
+  align-items: center;
+  margin-left: 80px;
   font-size: 26px;
+  padding: 15px 2px;
+}
+
+progress {
+  width: 100%;
+  height: var(--progress-bar-height);
+  appearance: none;
+  border: none;
+  border-radius: calc(var(--progress-bar-height) / 2);
+  background-color: var(--color-progress-bg);
+}
+
+.accordion-title.closed-accordion{
+  background-color: var(--color-progress-bg);
+  border-radius: 10px;
+  border: 1px solid var(--color-border-grey);
 }
 
 @keyframes App-logo-spin {
@@ -48,6 +67,7 @@
   opacity: 0; 
   animation: fadeInOut 5s infinite;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
 }
 
 @keyframes fadeInOut {
