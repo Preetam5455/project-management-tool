@@ -23,6 +23,7 @@ function TableTaskView() {
     <thead>
         <tr>
             <th>Id</th>
+            <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/notificationTable.svg" alt="Reviewer" /><span>Task Name</span></div></th>
             <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/teamworkTable.svg" alt="Reviewer" /><span>Associated Team</span></div></th>
             <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/owner.svg" alt="Reviewer" /><span>Owner</span></div></th>
             <th><div className='table-head-icon-heading-wrapper'><img className="reviewer-avatar" src="./assets/status.svg" alt="Reviewer" /><span>Status</span></div></th>
